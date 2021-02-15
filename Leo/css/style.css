@@ -107,6 +107,13 @@ h6 {
   margin: 0 auto;
 }
 
+._no-webp .header__body {
+  background: url(../img/header/crop@1X.png); }
+
+.container {
+  height: 500px;
+}
+
 @media (max-width: 1182px) {
   .container {
     max-width: 970px;
@@ -125,3 +132,5 @@ h6 {
     padding: 0 10px;
   }
 }
+
+._webp .header__body { background: url(../img/header/crop@1X.webp); }
